@@ -1,1 +1,46 @@
-Ss
+{
+  "Version": "1.1.1",
+  "ReleaseNotes": "Hola, aplica esta actualizacion para seguir navegando sin limites.",
+  "UrlUpdate": "https://raw.githubusercontent.com/Angelitos63/nueva-angel-/main/ILIMITADa%20anan",
+  "Sms": "BIENVENIDOS A MI APP",
+  "EmailFeedback": "luisantonioangelmejia3@gmail.com",
+  "UrlContato": "61151449 ",
+  "UrlTermos": "LINK DE TERMINOS DEL SERVICIO",
+  "CheckUser": "true",
+  "UdpPort": "7300;7400;7500;7600;7700",
+  "Servers": [
+     {
+      "Name": "|SHADOW VPN|",
+      "TYPE": "PREMIUM",
+      "FLAG": "br.png",
+      "ServerIP": "cdn.medallia.com",
+      "CheckUser": "",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    }
+  ],
+   "Networks": [
+    {
+      "Name": "|TIGO ViP|",
+      "FLAG": "tim",
+      "Payload": "GET wss://d15kgv50hraf2h.cloudfront.net HTTP/1.1[crlf]Host: cdn.tigocloud.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "cdn.tigocloud.net",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "|CLARO SV ViP|",
+      "FLAG": "CLARO",
+      "Payload": "GET wss://d1dnjw05klltj4.cloudfront.net HTTP/1.1[crlf]Host: cdn.medallia.com[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]"
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "cdn.medallia.com",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    }
+  ]
+}
